@@ -1,0 +1,4 @@
+Green=$'\e[1;32m'
+Blue=$'\e[1;34m'
+echo "$Blue locate -b '\os-release' | awk 'NR<2'$Green"
+locate -b '\os-release' | awk 'NR<2'

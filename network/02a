@@ -1,0 +1,1 @@
+ip address show $DEV | grep 'inet .* brd ' | head -1 | sed -e 's/^.* brd \([0-9\.]*\) .*$/\1/'

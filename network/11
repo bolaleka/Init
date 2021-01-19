@@ -1,0 +1,21 @@
+ echo "1  ola.mshome.net (172.17.211.209)  0.520 ms  0.580 ms  0.572 ms
+ 2  192.168.43.1 (192.168.43.1)  6.435 ms  6.340 ms  6.162 ms
+ 3  * * *
+ 4  * * *
+ 5  105-187-235-229.telkomsa.net (105.187.235.229)  43.371 ms  30.256 ms 105-187-235-233.telkomsa.net (105.187.235.233)  43.801 ms
+ 6  105-187-253-41.telkomsa.net (105.187.253.41)  44.030 ms  42.082 ms  41.839 ms
+ 7  wblv-os-cer-1-wan.osnet.co.za (196.25.49.189)  58.479 ms  31.395 ms  31.382 ms
+ 8  10.189.30.2 (10.189.30.2)  180.000 ms  181.718 ms  185.451 ms
+ 9  be5956.rcr21.b023101-0.lon13.atlas.cogentco.com (149.11.248.209)  196.824 ms  196.813 ms  201.594 ms
+10  be2348.ccr41.lon13.atlas.cogentco.com (130.117.51.73)  196.726 ms be2350.ccr42.lon13.atlas.cogentco.com (130.117.51.137)  199.733 ms be2348.ccr41.lon13.atlas.cogentco.com (130.117.51.73)  201.478 ms
+11  be12497.ccr41.par01.atlas.cogentco.com (154.54.56.130)  206.684 ms  207.930 ms be12489.ccr42.par01.atlas.cogentco.com (154.54.57.70)  207.893 ms
+12  be2922.rcr21.b032899-0.par01.atlas.cogentco.com (130.117.1.162)  212.448 ms be3183.ccr31.par04.atlas.cogentco.com (154.54.38.66)  212.436 ms be2921.rcr21.b032899-0.par01.atlas.cogentco.com (130.117.0.34)  211.317 ms
+13  amazon.demarc.cogentco.com (149.6.165.82)  211.294 ms  200.027 ms amazon.demarc.cogentco.com (149.6.115.162)  191.713 ms
+14  * 52.46.95.24 (52.46.95.24)  197.339 ms *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  server-143-204-225-60.cdg3.r.cloudfront.net (143.204.225.60)  294.408 ms  303.493 ms  303.537 ms" | grep "telkomsa.net"
